@@ -1,0 +1,95 @@
+*{
+  padding: 0px;
+  margin: 0%;
+}
+body{
+  background-color: black;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  padding: 15px;
+}
+.navbar a {
+  color: #feda75;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navbar a:hover {
+  transform: scale(1.5);
+}
+.contact{
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin-top: 150px;
+  
+}
+.contact h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.contact input, 
+.contact textarea{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.contact button{
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.contact button:hover{
+  background: #0056b3;
+}
+
+.info{
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+
+video{
+  position: absolute;
+  margin-top:10 px;
+}
+footer{
+  text-align: center;
+  font-size: 30px;
+  color: red;
+  height: 50px;
+  position: relative;
+  margin-top: 100px;
+  align-items: center;
+}
+h4{
+  color:black;
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+
+
+
